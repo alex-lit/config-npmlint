@@ -1,11 +1,11 @@
-# NPMPackageJSONLint Configuration
+# NPMLint Configuration
 
 [npm-package-json-lint](https://github.com/tclindner/npm-package-json-lint)
 
 ## Installation
 
 ```sh
-npm i @alexlit/config-npmpackagejsonlint -D
+npm i @alexlit/config-npmlint -D
 ```
 
 ## Connection
@@ -13,6 +13,6 @@ npm i @alexlit/config-npmpackagejsonlint -D
 ```json
 // .npmpackagejsonlintrc.json
 {
-  "extends": "@alexlit/config-npmpackagejsonlint"
+  "extends": "@alexlit/config-npmlint"
 }
 ```
