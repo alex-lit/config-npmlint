@@ -1,0 +1,49 @@
+{
+  "name": "@alexlit/config-npmpackagejsonlint",
+  "version": "0.0.1",
+  "private": false,
+  "description": "npmpackagejsonlint config",
+  "keywords": [
+    "config",
+    "npm",
+    "package",
+    "json",
+    "npmpackagejsonlint"
+  ],
+  "homepage": "https://github.com/alex-lit/config-npmpackagejsonlint#readme",
+  "bugs": {
+    "url": "https://github.com/alex-lit/config-npmpackagejsonlint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-lit/config-npmpackagejsonlint.git"
+  },
+  "license": "MIT",
+  "author": "Alexey Litovchenko",
+  "maintainers": [
+    "Alexey Litovchenko <alex.lit@outlook.com> (https://alexlit.gitlab.io)"
+  ],
+  "main": ".npmpackagejsonlintrc.json",
+  "files": [
+    ".npmpackagejsonlintrc.json"
+  ],
+  "scripts": {
+    "lint": "./node_modules/@alexlit/lint-kit/scripts/lint.sh",
+    "lint:eslint": "./node_modules/@alexlit/lint-kit/scripts/lint.eslint.sh",
+    "lint:htmllint": "./node_modules/@alexlit/lint-kit/scripts/lint.htmllint.sh",
+    "lint:markdownlint": "./node_modules/@alexlit/lint-kit/scripts/lint.markdownlint.sh",
+    "lint:npmpackagejsonlint": "./node_modules/@alexlit/lint-kit/scripts/lint.npmpackagejsonlint.sh",
+    "lint:stylelint": "./node_modules/@alexlit/lint-kit/scripts/lint.stylelint.sh",
+    "publish": "./node_modules/@alexlit/lint-kit/scripts/publish.sh",
+    "semver": "./node_modules/@alexlit/lint-kit/scripts/semver.sh",
+    "up": "./node_modules/@alexlit/lint-kit/scripts/up.sh",
+    "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
+  },
+  "dependencies": {
+    "npm-package-json-lint": "^5.1.0",
+    "npm-package-json-lint-config-default": "^3.0.0"
+  },
+  "devDependencies": {
+    "@alexlit/lint-kit": "^5.5.0"
+  }
+}
