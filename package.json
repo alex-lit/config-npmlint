@@ -41,10 +41,10 @@
     "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "dependencies": {
-    "npm-package-json-lint": "^5.2.2",
+    "npm-package-json-lint": "^5.2.3",
     "npm-package-json-lint-config-default": "^3.0.0"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^25.0.0"
+    "@alexlit/lint-kit": "^29.2.3"
   }
 }
