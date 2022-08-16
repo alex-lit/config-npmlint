@@ -1,3 +1,5 @@
+# [3.3.0](https://github.com/alex-lit/config-npmlint/compare/v3.2.3...v3.3.0) (2022-08-16)
+
 ## [3.2.3](https://github.com/alex-lit/config-npmlint/compare/v3.2.2...v3.2.3) (2022-07-27)
 
 ## [3.2.2](https://github.com/alex-lit/config-npmlint/compare/v3.2.1...v3.2.2) (2022-07-04)
